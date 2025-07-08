@@ -1,4 +1,5 @@
 const fs = require('fs');
+const trataErros = require('./erros/funcoesErros');
 
 const caminhoArquivo = process.argv;
 const link = caminhoArquivo[2]; 
@@ -9,8 +10,7 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
     contaPalavras(texto); 
     //todo o codigo que a gente quer que de certo, mas se der erro, queremos monitorar o códiog que está dentro desse bloco 
   } catch (erro) {
-    if (erro.code === 'ENOENT') console.log('Erro que esperava'); 
-    else console.log('Outro erro');
+    console.log(trataErros(erro)); 
 
   }
 })

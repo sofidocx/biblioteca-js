@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/sofidocx/biblioteca-js/issues"
   },
-  "homepage": "https://github.com/sofidocx/biblioteca-js#readme"
+  "homepage": "https://github.com/sofidocx/biblioteca-js#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0"
+  }
 }

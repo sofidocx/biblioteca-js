@@ -1,6 +1,6 @@
 // funcoes para separar o tratamento de erro do código 
 
-function trataErros(erro) {
+export default function trataErros(erro) {
     if(erro.code === 'ENOENT') {
         return 'Arquivo não encontrado'; 
     }else {
@@ -8,4 +8,3 @@ function trataErros(erro) {
     }
 }
 
-module.exports = trataErros; 

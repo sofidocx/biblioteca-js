@@ -1,5 +1,6 @@
-const fs = require('fs');
-const trataErros = require('./erros/funcoesErros');
+import fs from 'fs'; 
+import trataErros from './erros/funcoesErros.js'; 
+import { contaPalavras } from './index.js';
 
 const caminhoArquivo = process.argv;
 const link = caminhoArquivo[2]; 
@@ -13,4 +14,4 @@ fs.readFile(link, 'utf-8', (erro, texto) => {
     console.log(trataErros(erro)); 
 
   }
-})
+});

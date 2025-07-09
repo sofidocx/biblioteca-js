@@ -1,6 +1,6 @@
 
 //ponto de entrada da aplicação, ponto inicial 
-function contaPalavras (texto) {
+export function contaPalavras (texto) {
   const paragrafos = extraiParagrafos(texto); 
   const contagem = paragrafos.flatMap((paragrafo) => {
     if (!paragrafo) return [];
@@ -10,7 +10,7 @@ function contaPalavras (texto) {
 }
 
 function extraiParagrafos(texto) {
-  return paragrafos = texto.toLowerCase().split('\n');
+  return texto.toLowerCase().split('\n');
 }
 
 

@@ -1,9 +1,9 @@
 {
   "name": "biblioteca",
-  
   "version": "1.0.0",
   "description": "A biblioteca recebe arquivos de texto e verifica a repetição de palavras, executando uma contagem, retornando um objeto com as palavras mais repetidas de cada parágrafo.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,0 +1,21 @@
+{
+  "name": "biblioteca",
+  
+  "version": "1.0.0",
+  "description": "A biblioteca recebe arquivos de texto e verifica a repetição de palavras, executando uma contagem, retornando um objeto com as palavras mais repetidas de cada parágrafo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofidocx/biblioteca-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofidocx/biblioteca-js/issues"
+  },
+  "homepage": "https://github.com/sofidocx/biblioteca-js#readme"
+}

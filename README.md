@@ -29,7 +29,7 @@ Este projeto foi desenvolvido como parte de um curso de Node.js e JavaScript da 
 ## Como Usar
 
 Clone este repositório para sua máquina local.
-Execute files com o comando: node src/index.js arquivos/texto-web.txt 
+Execute files com o comando: node src/cli.js -t arquivos/texto-web.txt -d  ./resultados
 Altere os arquivos que deseja, identificando apenas o nome deles no caminho de arquivos. 
 
 ## Créditos
